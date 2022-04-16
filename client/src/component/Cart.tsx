@@ -9,12 +9,10 @@ function Cart() {
 	const [formLayout] = useState<LayoutType>("vertical");
 	const cartValue = useSelector((store: any) => store.userCart.totalAmount);
 
-	console.log(cartValue);
 	const { Text } = Typography;
 	const [errors, seterror] = useState("");
 	const [coupon1, data] = useLazyQuery(CouponService.VALIDATE_COUPON);
 
-	console.log(data, "coupon value");
 	const [form] = Form.useForm();
 	const formItemLayout =
 		formLayout === "vertical"
@@ -24,7 +22,6 @@ function Cart() {
 			  }
 			: null;
 	const onFinish = async (values: any) => {
-		console.log(values);
 		coupon1({
 			variables: {
 				couponcode: values.couponcode,
@@ -40,7 +37,6 @@ function Cart() {
 	if (data.loading) return <h1>Loading...</h1>;
 	if (data.error) return <h1>error</h1>;
 
-	console.log();
 	return (
 		<div className="site-card-border-less-wrapper">
 			<Card

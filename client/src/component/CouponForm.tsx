@@ -31,7 +31,6 @@ const CouponForm: FC = () => {
 		],
 	};
 	const onFinish = async (values: any) => {
-		console.log(values);
 		try {
 			await create({
 				variables: {

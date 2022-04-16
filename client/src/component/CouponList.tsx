@@ -8,7 +8,6 @@ import CouponService from "../service/CouponService";
 function CouponList() {
 	const { data, loading, refetch } = useQuery(CouponService.GET_COUPON_DATA);
 	const nav = useNavigate();
-	// console.log(data.allcoupon);
 	if (loading) {
 		<h1>Loading...</h1>;
 	}

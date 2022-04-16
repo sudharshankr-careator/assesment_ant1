@@ -40,7 +40,6 @@ function useFetchData<Payload>(url: string): {
 const Items: FC = () => {
 	const dispatch = useDispatch();
 	const { data } = useFetchData<Beverage[]>("/items-taplist.json");
-	console.log(data);
 	return (
 		<div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
 			{(data || []).map((bev, index) => (
