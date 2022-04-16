@@ -1,18 +1,18 @@
-# assesment_ant1
-Front-End(client) (Technologies: typescript, react.js, redux, antDesign)
-Install the packages: npm install
-start the application : npm start
+# assesment_ant1 <br/>
+Front-End(client) (Technologies: typescript, react.js, redux, antDesign) <br/>
+Install the packages: npm install <br/>
+start the application : npm start <br/>
 
-Open PgAdmin (DateBase: Postgresql)
-create database name:  coupon
-database_PORT=5432
-database_HOST=localhost
-database_NAME=coupon
-database_USERNAME=postgres
-database_PASSWORD=root
-database_TYPE=postgres
+Open PgAdmin (DateBase: Postgresql) <br/>
+create database name:  coupon <br/>
+database_PORT=5432 <br/>
+database_HOST=localhost <br />
+database_NAME=coupon <br/>
+database_USERNAME=postgres <br/>
+database_PASSWORD=root <br/>
+database_TYPE=postgres <br/>
 
 
-Back-end(server) (Technologies: node.js, nest.js, graphQL)
-Install the packages: npm install
-start the application : npm run start:dev
+Back-end(server) (Technologies: node.js, nest.js, graphQL) <br/>
+Install the packages: npm install <br/>
+start the application : npm run start:dev <br/>
