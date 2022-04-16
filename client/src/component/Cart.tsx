@@ -34,8 +34,8 @@ function Cart() {
 			seterror(data.error?.message.toString());
 		}
 	}, [data.error]);
-	if (data.loading) return <h1>Loading...</h1>;
-	if (data.error) return <h1>error</h1>;
+	if (data.loading) return <h1 style={{ color: "white" }}>Loading...</h1>;
+	// if (data.error) return <h1 style={{ color: "white" }}>error</h1>;
 
 	return (
 		<div className="site-card-border-less-wrapper">
