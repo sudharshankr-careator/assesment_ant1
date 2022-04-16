@@ -14,5 +14,6 @@ database_TYPE=postgres <br/>
 
 
 Back-end(server) (Technologies: node.js, nest.js, graphQL) <br/>
+Install Nest.js Cli to run the nest applications : npm i -g @nestjs/cli <br/>
 Install the packages: npm install <br/>
 start the application : npm run start:dev <br/>
