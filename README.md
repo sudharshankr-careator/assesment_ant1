@@ -1,4 +1,4 @@
-# assesment_ant1 <br/>
+# assesment_ant <br/>
 Front-End(client) (Technologies: typescript, react.js, redux, antDesign) <br/>
 Install the packages: npm install <br/>
 start the application : npm start <br/>
